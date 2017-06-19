@@ -1,0 +1,38 @@
+{
+  "name": "ghost-app-frontmatter",
+  "version": "0.0.3",
+  "description": "Add frontmatter to your posts",
+  "repository": {
+	"type": "git",
+	"url": "git://github.com/freekrai/ghost-app-frontmatter.git"
+  },
+ "dependencies": {
+	  "ghost-app": "^0.0.3",
+	  "gray-matter": "^2.0.0",
+	  "showdown-ghost": "^0.4.0"
+  },
+  "ghost": {
+    "permissions": {
+      "filters": [
+        "prePostsRender",
+		"rss.feed"
+      ]
+    }
+  },
+  "keywords": [
+    "ghost",
+    "ghost-app",
+    "frontmatter",
+    "yaml",
+    "post",
+    "preview"
+  ],
+  "author": "@freekrai",
+  "license": "MIT",
+  "readme": "README.md",
+  "bugs": {
+	"url": "https://github.com/freekrai/ghost-app-frontmatter/issues"
+  },
+  "readme": "README.md",
+  "homepage": "https://github.com/freekrai/ghost-app-frontmatter#readme"
+}
