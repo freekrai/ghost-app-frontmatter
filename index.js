@@ -35,7 +35,9 @@ var frontMatterApp = App.extend({
         this.ghost.filters.register('rss.feed', function(feed) {
             feed.items.forEach(function(item) {
                 var contentEncoded    = item.custom_elements[0]['content:encoded'];
-                contentEncoded._cdata = cleanDescription(contentEncoded._cdata);
+		if( typeof contentEncoded !== 'undefined' ){
+              		contentEncoded._cdata = cleanDescription(contentEncoded._cdata);
+		}
                 item.description      = cleanDescription(item.description);
             })
             return feed;
