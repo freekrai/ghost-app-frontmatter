@@ -29,3 +29,13 @@ post.hbs
 
 <div>{{data.blurb}}</div>
 ```
+
+## Installation
+
+### Manual Installation
+
+1. Download this repo
+2. Copy the folder: `ghost-app-frontmatter` to your Ghost apps folder: `content/apps/ghost-app-frontmatter`
+3. Update your Ghost blog's `activeApps` to include the app: `"key":"activeApps","value":"["ghost-app-frontmatter"]"`
+
+For details on how to modify your database, see: [Getting Started: Installing](https://github.com/TryGhost/Ghost/wiki/Apps-Getting-Started-for-Ghost-Devs#installing)
