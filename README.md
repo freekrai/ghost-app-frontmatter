@@ -10,7 +10,7 @@ You can use front matter using the `+++` delimiter
 
 ```markdown
 +++
-blurg: 'Awesome Data'
+blurb: 'Awesome Data'
 link: 'http://google.ca'
 +++
 
